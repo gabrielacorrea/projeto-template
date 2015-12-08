@@ -20,13 +20,11 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 </head>
 <body>
 
-
 <div class="wrapper style1">
 	<nav>
 		<div class="nav-wrapper">
 			<a href="index.html" class="brand-logo">Pit Stop</a>
 			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li class="active"><a href="index.html">Homepage</a></li>
 				<li><a href="left-sidebar.html">Pesquisa</a></li>
@@ -35,50 +33,42 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 			</ul>
 		</div>
 	</nav>
-
-		<div id="banner" class="container">
-			<section>
-				<div class="row">
-					<div class="col l12">
-							<p>O taxista encontra o que precisa.</p>
+	<div id="banner" class="container">
+		<section>
+			<div class="row">
+				<div class="col l12">
                     <div id="search" class="wrapper style2">
                         <div class="container">
+                        	<p>O taxista encontra o que precisa.</p>
                             <section>
                                 <header class="major">
                                     <h2>Pesquisa</h2>
                                 </header>
                                 <form method="post" action="#">
-                                    <div class="row quarter">
-                                        <div class="9u">
-                                            <input class="text" type="text" name="name" id="name" placeholder="Nome do estabelecimento" />
-                                        </div>
+                                    <div class="input-field">
+                                        <input class="text" type="text" name="name" id="name" length="160" placeholder="Nome do estabelecimento" />
                                     </div>
-                                    <div class="row quarter">
-                                        <div class="9u">
-                                            <input type="checkbox" name="isOpenSaturday" value="isOpenSaturday">Aberto aos sábados
-                                        </div>
+                                    <div class="input-field">
+                                    	<label for="valor">Faixa de preço</label>
+			                        	<a id="valor" class="btn-floating waves-effect waves-light green"><i class="material-icons">attach_money</i></a>
                                     </div>
-                                    <div class="row quarter">
-                                        <div class="9u">
-                                            <select>
-                                                <option value="default">Selecione a marca do carro</option>
-                                                <option value="chevrolet">Chevrolet</option>
-                                                <option value="fiat">Fiat</option>
-                                                <option value="ford">Ford</option>
-                                                <option value="Honda">Honda</option>
-                                            </select>
-                                        </div>
+                                    <div class="input-field">
+                                        <select>
+                                            <option value="default">Selecione a marca do carro</option>
+                                            <option value="chevrolet">Chevrolet</option>
+                                            <option value="fiat">Fiat</option>
+                                            <option value="ford">Ford</option>
+                                            <option value="Honda">Honda</option>
+                                        </select>
                                     </div>
-                                    <div class="row quarter">
-                                        <div class="9u">
-                                            <select>
-                                                <option value="default">Selecione o modelo do carro</option>
-                                                <option value="classis">Classis</option>
-                                                <option value="onix">Onix</option>
-                                                <option value="Civic">Civic</option>
-                                                <option value="Palio">Palio</option>
-                                            </select>
-                                        </div>
+                                    <div class="input-field">
+                                        <select>
+                                            <option value="default">Selecione o modelo do carro</option>
+                                            <option value="classis">Classic</option>
+                                            <option value="onix">Onix</option>
+                                            <option value="Civic">Civic</option>
+                                            <option value="Palio">Palio</option>
+                                        </select>
                                     </div>
                                     <div class="row half">
                                         <div class="12u">
@@ -92,11 +82,11 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
                                 </form>
                             </section>
                         </div>
-                    </div>
                 </div>
             </div>
-			</section>
-		</div>
+        </div>
+		</section>
+	</div>
 		<div id="extra">
 			<div class="container">
 				<div class="row no-collapse-1">
